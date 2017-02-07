@@ -1,0 +1,7 @@
+/poc-spring-jdbc-template/target/
+/poc-spring-data/target/
+/gs-relational-data-access/target/
+/qs-spring-data/target/
+/qs-spring-boot/target/
+/gs-rest-service/target/
+/pdc-cassandra-java/target/
