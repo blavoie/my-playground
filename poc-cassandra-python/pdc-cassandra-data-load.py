@@ -49,10 +49,11 @@ cas_keyspace = 'brlav35'
 cluster = Cluster(contact_points=["n01.cl01", "n02.cl01"],
                   default_retry_policy=RetryPolicy(),
                   load_balancing_policy=TokenAwarePolicy(DCAwareRoundRobinPolicy(local_dc='datacenter1')))
-session = cluster.connect(keyspace='brlav35')
-session.row_factory = dict_factory
+session = cluster.connect(keyspace=cas_keyspace)
+#session.row_factory = dict_factory
 
-connection.set_session(session)
+#connection.set_session(session)
+connection.setup(hosts=["n01.cl01","n02.cl01"], default_keyspace=cas_keyspace)
 
 ### Define UDT, and register
 """
@@ -106,6 +107,11 @@ select seco.code_session
          where     inco.code_session = seco.code_session
                and inco.numero_reference_section_cours = seco.numero_reference_section_cours)
            as liste_inscriptions
+      , (select cast (collect (ense.numero_dossier_pidm) as icu.t_number10_tab)
+         from icu.enseignant_section_mc ense
+         where     ense.code_session = seco.code_session
+               and ense.numero_reference_section_cours = seco.numero_reference_section_cours)
+           as liste_enseignants
 from icu.section_cours_mc seco
 where seco.code_statut_section_cours = 'A'
 """)
@@ -119,7 +125,7 @@ while rows:
         print row
         sc = SectionCours.create(code_session=row['code_session'], nrc=row['nrc'], sigle_matiere=row['sigle_matiere'],
                                  numero_cours=row['numero_cours'], titre=row['titre'], date_debut=row['date_debut'],
-                                 date_fin=row['date_fin'], inscriptions=row['liste_inscriptions'])
+                                 date_fin=row['date_fin'], inscriptions=row['liste_inscriptions'], enseignants=row['liste_enseignants'])
 
         # next bulk
         if nb >= ora_nb:

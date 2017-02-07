@@ -14,3 +14,4 @@ class SectionCours(Model):
     date_fin = columns.Date()
 
     inscriptions = columns.Set(value_type=columns.BigInt())
+    enseignants = columns.Set(value_type=columns.BigInt())
