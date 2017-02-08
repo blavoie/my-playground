@@ -100,8 +100,8 @@ select seco.code_session
       ,seco.titre_section_cours as titre
       ,seco.sigle_matiere
       ,seco.numero_cours
-      ,seco.date_debut_section as date_debut
-      ,seco.date_fin_section as date_fin
+      ,coalesce(seco.date_debut_section, sess.date_debut_cours) as date_debut
+      ,coalesce(seco.date_fin_section, sess.date_fin_cours) as date_fin
       , (select cast (collect (inco.numero_dossier_pidm) as icu.t_number10_tab)
          from icu.inscription_cours_mc inco
          where     inco.code_session = seco.code_session
@@ -113,6 +113,8 @@ select seco.code_session
                and ense.numero_reference_section_cours = seco.numero_reference_section_cours)
            as liste_enseignants
 from icu.section_cours_mc seco
+         inner join icu.session_mc sess
+         on seco.code_session = sess.code_session
 where seco.code_statut_section_cours = 'A'
 """)
 
