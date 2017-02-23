@@ -3,6 +3,7 @@
 from __future__ import absolute_import
 
 from cassandra.cqlengine import columns
+from cassandra.cqlengine.management import sync_table
 from cassandra.cqlengine.models import Model
 from cassandra.cqlengine.usertype import UserType
 
@@ -40,7 +41,7 @@ class Individu(Model):
     # Nécessite driver 3.6.0
     # https://datastax-oss.atlassian.net/browse/PYTHON-649
     # adr_postales = columns.Map(columns.Text, columns.UserDefinedType(AdressePostaleUDT))
-    # adr_courriels = columns.Map(columns.Text, columns.Text)
+    adr_courriels = columns.Map(columns.Text, columns.Text)
 
 
 class SectionCours(Model):
@@ -59,17 +60,38 @@ class SectionCours(Model):
     enseignants = columns.Set(value_type=columns.BigInt())
 
 
-class InscriptionBase(Model):
-    __table_name__ = None
+class InscriptionParIndividu(Model):
+    __table_name__ = 'inscriptions_par_individu'
 
+    numero_dossier = columns.BigInt(primary_key=True, partition_key=True)
+    code_session = columns.Text(primary_key=True, clustering_order='DESC')
+    nrc = columns.Text(primary_key=True, clustering_order='ASC')
+
+    titre = columns.Text(required=True)
+
+    note_finale = columns.Text()
+
+
+class InscriptionParSectionCours(Model):
+    __table_name__ = 'inscriptions_par_section_cours'
+
+    code_session = columns.Text(primary_key=True, partition_key=True)
+    nrc = columns.Text(primary_key=True, partition_key=True)
     numero_dossier = columns.BigInt(primary_key=True)
-    code_session = columns.Text(primary_key=True)
-    nrc = columns.Text(primary_key=True)
+
+    nom = columns.Text(required=True)
+    prenom = columns.Text(required=True)
+
+    note_finale = columns.Text()
 
 
-class InscriptionParIndividu(InscriptionBase):
-    __table_name__ = 'inscription_par_individu'
+class InscriptionParSectionCours2(Model):
+    __table_name__ = 'inscriptions_par_section_cours_2'
 
+    code_session = columns.Text(primary_key=True, partition_key=True)
+    nrc = columns.Text(primary_key=True, partition_key=True)
+    nom = columns.Text(primary_key=True, clustering_order="ASC")
+    prenom = columns.Text(primary_key=True, clustering_order="ASC")
+    numero_dossier = columns.BigInt(primary_key=True)
 
-class InscriptionParSectionCours(InscriptionBase):
-    __table_name__ = 'inscriptions_par_section'
+    note_finale = columns.Text()
