@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="078a24b9-d261-4c1b-a00e-5f2f05765630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/cassandra_types.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/forums.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oracle/executeur.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oracle/forums.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oracle/obtenir_donnees.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/AdressePostaleUDT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/IndividuEntite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/IndividuUDT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/SectionCoursEntite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oracle/Curseurs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pdc-sql-alchemy-01.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/Individu.py" afterPath="$PROJECT_DIR$/dao/Individu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/Inscription.py" afterPath="$PROJECT_DIR$/dao/Inscription.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/__init__.py" afterPath="$PROJECT_DIR$/dao/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/cassandra/InscriptionDAO.py" afterPath="$PROJECT_DIR$/dao/cassandra/InscriptionDAO.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/cassandra/__init__.py" afterPath="$PROJECT_DIR$/dao/cassandra/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/oracle/InscriptionDAO.py" afterPath="$PROJECT_DIR$/dao/oracle/InscriptionDAO.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dao1/oracle/__init__.py" afterPath="$PROJECT_DIR$/dao/oracle/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/poc-cassandra-python.iml" afterPath="$PROJECT_DIR$/.idea/poc-cassandra-python.iml" />
+    <list default="true" readonly="true" id="078a24b9-d261-4c1b-a00e-5f2f05765630" name="Default" comment="Going forward.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/__init__.py" afterPath="$PROJECT_DIR$/model/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oracle/__init__.py" afterPath="$PROJECT_DIR$/oracle/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01/notebooks/exploration-alertage.ipynb" afterPath="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01/notebooks/exploration-alertage.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +15,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/poc-cassandra-python$cassandra.coverage" NAME="cassandra Coverage Results" MODIFIED="1487087126526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
-    <SUITE FILE_PATH="coverage/poc-cassandra-python$pdc_cassandra_data_load.coverage" NAME="pdc-cassandra-data-load Coverage Results" MODIFIED="1486591936237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/poc-cassandra-python$cassandra.coverage" NAME="cassandra Coverage Results" MODIFIED="1487812618489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/poc-cassandra-python$pdc_cassandra_data_load.coverage" NAME="pdc-cassandra-data-load Coverage Results" MODIFIED="1487858027059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -47,6 +28,16 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="brlav35@enpr" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -54,27 +45,20 @@
       <file leaf-file-name="pdc-cassandra-data-load.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pdc-cassandra-data-load.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="-600">
+              <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
               <folding>
                 <element signature="e#25#41#0" expanded="true" />
-                <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-                <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-                <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-                <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-                <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-                <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+                <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+                <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+                <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+                <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+                <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+                <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+                <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+                <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+                <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/app/anaconda/lib/python2.7/site-packages/cassandra/cqlengine/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4440">
-              <caret line="308" column="12" lean-forward="false" selection-start-line="308" selection-start-column="12" selection-end-line="308" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,9 +66,11 @@
       <file leaf-file-name="cassandra_types.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/cassandra_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="1380">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="e#25#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +78,8 @@
       <file leaf-file-name="forums.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oracle/forums.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -103,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/model/forums.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#25#64#0" expanded="true" />
               </folding>
@@ -150,9 +136,11 @@
         <option value="$PROJECT_DIR$/model/cassandratypes.py" />
         <option value="$PROJECT_DIR$/oracle/Curseurs.py" />
         <option value="$PROJECT_DIR$/model/cassandra.py" />
-        <option value="$PROJECT_DIR$/model/cassandra_types.py" />
         <option value="$PROJECT_DIR$/oracle/forums" />
         <option value="$PROJECT_DIR$/model/forums.py" />
+        <option value="/Oracle Fragment (forums.py:38).sql" />
+        <option value="$PROJECT_DIR$/oracle/forums.py" />
+        <option value="$PROJECT_DIR$/model/cassandra_types.py" />
         <option value="$PROJECT_DIR$/pdc-cassandra-data-load.py" />
       </list>
     </option>
@@ -186,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,20 +197,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oracle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc-cassandra-python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc-cassandra-python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -229,12 +204,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python-driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -246,7 +220,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cassandra">
+  <component name="RunManager" selected="Python.pdc-cassandra-data-load">
     <configuration default="false" name="pdc-cassandra-data-load" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,8 +477,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.cassandra" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pdc-cassandra-data-load" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pdc-cassandra-data-load" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cassandra" />
       </list>
     </recent_temporary>
   </component>
@@ -518,6 +492,24 @@
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../../ul/monitoring-et-alertage/poc-flask-01" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -555,17 +547,31 @@
       <option name="project" value="LOCAL" />
       <updated>1487300580024</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Going forward.">
+      <created>1487300647396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487300647396</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Going forward.">
+      <created>1487816876611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487816876611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1390625" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14110756" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12619808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12578617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -575,8 +581,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30669546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19247788" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -639,18 +645,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model/cassandra_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oracle/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pdc-cassandra-data-load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
-            <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-            <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-            <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/app/anaconda/lib/python2.7/site-packages/cassandra/cqlengine/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4440">
+          <caret line="308" column="12" lean-forward="false" selection-start-line="308" selection-start-column="12" selection-end-line="308" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/cassandra_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+          <folding>
+            <element signature="e#25#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oracle/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdc-cassandra-data-load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
           </folding>
         </state>
       </provider>
@@ -667,7 +759,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#25#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oracle/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdc-cassandra-data-load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/app/anaconda/lib/python2.7/site-packages/cassandra/cqlengine/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="12" lean-forward="false" selection-start-line="308" selection-start-column="12" selection-end-line="308" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/cassandra_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#25#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,12 +844,15 @@
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
-            <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-            <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-            <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
           </folding>
         </state>
       </provider>
@@ -717,7 +869,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#25#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -735,12 +889,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
-            <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-            <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-            <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
           </folding>
         </state>
       </provider>
@@ -752,12 +909,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
-            <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-            <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-            <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
           </folding>
         </state>
       </provider>
@@ -769,12 +929,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
-            <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-            <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-            <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
           </folding>
         </state>
       </provider>
@@ -788,28 +951,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/cassandra/InscriptionDAO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdc-sql-alchemy-01.py" />
-    <entry file="file://$PROJECT_DIR$/dao/Individu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/Inscription.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/IndividuEntite.py" />
     <entry file="file://$PROJECT_DIR$/model/IndividuUDT.py" />
     <entry file="file://$PROJECT_DIR$/model/SectionCoursEntite.py" />
@@ -870,52 +1012,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/app/anaconda/lib/python2.7/site-packages/cassandra/cqlengine/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4440">
-          <caret line="308" column="12" lean-forward="false" selection-start-line="308" selection-start-column="12" selection-end-line="308" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/cassandra_types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/forums.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/forums.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#25#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dao/Individu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/Inscription.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/app/anaconda/lib/python2.7/site-packages/cassandra/cqlengine/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="308" column="12" lean-forward="false" selection-start-line="308" selection-start-column="12" selection-end-line="308" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/cassandra/InscriptionDAO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oracle/forums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/cassandra_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pdc-cassandra-data-load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-600">
+          <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
-            <marker date="1487300447392" expanded="true" signature="1238:1708" ph="select di.nu... dossier_individu" />
-            <marker date="1487300447392" expanded="true" signature="1406:1536" ph="select * fro... inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="1576:1707" ph="select * fro... enseignant_section_mc" />
-            <marker date="1487300447392" expanded="true" signature="2623:3817" ph="SELECT seco.... section_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="2977:3253" ph="SELECT cast inscription_cours_mc" />
-            <marker date="1487300447392" expanded="true" signature="3299:3576" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="1247:2207" ph="SELECT di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="1456:1760" ph="SELECT cast adresse_courriel_mc" />
+            <marker date="1489580847401" expanded="true" signature="1881:2019" ph="SELECT * FRO... inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2206" ph="select * fro... enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="2134:2207" ph="select di.nu... dossier_individu" />
+            <marker date="1489580847401" expanded="true" signature="3176:4450" ph="SELECT seco.... section_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3558:3846" ph="SELECT cast inscription_cours_mc" />
+            <marker date="1489580847401" expanded="true" signature="3900:4189" ph="SELECT cast enseignant_section_mc" />
+            <marker date="1489580847401" expanded="true" signature="4878:5637" ph="SELECT inco.... inscription_cours_mc" />
           </folding>
         </state>
       </provider>
